@@ -13,7 +13,6 @@ a{
     color: black;
 }
 
-
 .displayUp{ /*header*/
     display: flex;
 }
@@ -24,8 +23,6 @@ a{
 .displayList{
     display: flex;
 }
-
-
 
 .bannerStitch{ /*section 1 stitch*/
     width: 1515px;
@@ -41,7 +38,6 @@ a{
         top: 496px;
         left: 261px;
 }
-
 
 .vignetteSection{ /*section 2 vignette*/
     display: flex;
@@ -74,7 +70,7 @@ a{
 }
 
 /*section 3 disney+*/
-#colorSection2{ /*couleur fond de page*/
+#colorSection2{
     background-color: #054553;
 }
 .textWhite{
@@ -86,10 +82,10 @@ a{
 .textCenter{
     text-align: center;
 }
-.textpaddingDisney{
+.textPaddingDisney{
     padding: 47px;
 }
-.textpadding{
+.textPadding{
     padding: 10px;
 }
 .bannerSection{
@@ -100,4 +96,19 @@ a{
     display: flex;
     width: 425px;
     padding: 10px;
+}
+
+/*section 4 parcs*/
+.textPaddingParcs{
+    padding-top: 47px;
+    padding-bottom: 20px;
+}
+.parcSection{
+    display: flex;
+    
+}
+.parcImg{
+    display: flex;
+    justify-content: center;
+    width: 500px;
 }
