@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.displayUp{ /*header*/
+    display: flex;
+}
+.logoHeader{
+    width: 100px;
+    margin: 15px;
+}
+.displayList{
+    display: flex;
+}
+
+
+
+.bannerStitch{ /*section 1 stitch*/
+    width: 1515px;
+}
+.logoStitch{
+    width: 412px;
+    position: absolute;
+        top: 167px;
+        left: 127px;
+}
+.textLogoStitch{
+    position: absolute;
+        top: 496px;
+        left: 261px;
+}
+
+
+.vignetteSection{ /*section 2 vignette*/
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.textVignette{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.vignetteImg{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+.textVignetteLink{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+}
+.colorSection{ /*couleur du fond de la page d'une div*/
+    background-color: #f1f2f3;
+}
+.colorBackground{ /*couleur fond div vignettes images textes*/
+    background-color: #fffff7;
+    margin: 1em; /* autre dimension que px*/
+}
+
+/*section 3 disney+*/
+#colorSection2{ /*couleur fond de page*/
+    background-color: #054553;
+}
+.textWhite{
+    color: #ffffff;
+}
+#textGrey{
+    color: #c7c7c9;
+}
+.textCenter{
+    text-align: center;
+}
+.textpaddingDisney{
+    padding: 47px;
+}
+.textpadding{
+    padding: 10px;
+}
+.bannerSection{
+    display: flex;
+    justify-content: center;
+}
+.bannerImg{
+    display: flex;
+    width: 425px;
+    padding: 10px;
+}
