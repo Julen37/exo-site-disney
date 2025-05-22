@@ -51,6 +51,15 @@ a{
     flex-direction: column;
     margin: 25px;
 }
+.textVignette2{
+    width: 17em;
+}
+#alignBoutique{
+    margin-top: 51px;
+}
+#alignDisneyFilm{
+    margin-top: 97px;
+}
 .vignetteImg{
     display: flex;
     justify-content: center;
@@ -105,10 +114,22 @@ a{
 }
 .parcSection{
     display: flex;
-    
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
 }
 .parcImg{
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 662px;
+}
+.textParc{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 37em;
+}
+#textCruise{
+    margin-top: 25px;
 }
