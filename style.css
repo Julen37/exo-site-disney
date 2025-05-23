@@ -52,7 +52,7 @@ a{
     margin: 25px;
 }
 .textVignette2{
-    width: 17em;
+    width: 16em;
 }
 #alignBoutique{
     margin-top: 51px;
@@ -115,9 +115,6 @@ a{
 .parcSection{
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 10px;
 }
 .parcImg{
     display: flex;
@@ -133,3 +130,70 @@ a{
 #textCruise{
     margin-top: 25px;
 }
+
+/*section 5 spectacles*/
+.spectacleLionImg{
+    display: flex;
+    justify-content: center;
+    width: 650px;
+}
+.spectacleImg{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+}
+.textLionSpectacle{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 37em;
+}
+.textSpectacle{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 16em;
+}
+
+/*section 6 boutique*/
+.boutiqueSection{
+    display: flex;
+    justify-content: center;
+}
+.cadeauImg{
+    display: flex;
+    justify-content: center;
+    width: 84em;
+}
+.logoBoutique{
+    position: absolute;
+    top: 219em;
+    left: 360px;
+    width: 23em
+}
+.textDecouvrir{
+    position: absolute;
+    top: 228em;
+    left: 494px;
+    color: #ffffff;
+}
+.textDecouvrir:hover{ /* sert quand on survole un element pour qu'il change*/
+    text-decoration: underline;
+}
+.textBoutique{
+    position: absolute;
+    top: 226em;
+    left: 385px;
+    color: #ffffff;
+}
+
+/*section 7 films*/
+.textInscrip{
+    position: absolute;
+    top: 250em;
+    left: 494px;
+    color: #ffffff;
+}
+
+
+/*section 8 plus d'actus*/
