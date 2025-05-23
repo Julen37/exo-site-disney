@@ -24,7 +24,8 @@ a{
     display: flex;
 }
 
-.bannerStitch{ /*section 1 stitch*/
+ /*section 1 stitch*/
+.bannerStitch{
     width: 1515px;
 }
 .logoStitch{
@@ -188,12 +189,20 @@ a{
 }
 
 /*section 7 films*/
-.textInscrip{
-    position: absolute;
-    top: 250em;
-    left: 494px;
-    color: #ffffff;
+.filmImg{
+   display: flex;
+    width: 271px;
+    padding: 10px;
+}
+.textBlue:hover{
+    color: #1786eb;
 }
 
-
-/*section 8 plus d'actus*/
+/*section 8 plus d'actus */
+.textInscrip{
+    position: absolute;
+    top: 286em;
+    left: 725px;
+    width: 139px;
+    color: #ffffff;
+}
