@@ -39,10 +39,18 @@ a{
         top: 496px;
         left: 261px;
 }
+.buttonStitch{
+    position: absolute;
+        top: 34em;
+        left: 19em;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .vignetteSection{ /*section 2 vignette*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
@@ -101,11 +109,16 @@ a{
 .bannerSection{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .bannerImg{
     display: flex;
     width: 425px;
     padding: 10px;
+}
+.buttonDisney{
+    display: flex;
+    justify-content: center;
 }
 
 /*section 4 parcs*/
@@ -116,6 +129,7 @@ a{
 .parcSection{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .parcImg{
     display: flex;
@@ -160,6 +174,8 @@ a{
 .boutiqueSection{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .cadeauImg{
     display: flex;
@@ -205,6 +221,11 @@ a{
     left: 725px;
     width: 139px;
     color: #ffffff;
+}
+.buttonActus{
+    position: absolute;
+    top: 290em;
+    left: 725px;
 }
 
 /* ----------------------------------------------------MENU BURGER-------------------------------------------------------*/
@@ -322,3 +343,60 @@ a{
     opacity: 1;
 }
 /* --------------------------------------------FIN MENU BURGER----------------------------------------*/
+
+.navBurger{ /*pour configurer la disparition du menu burger*/
+    display: none;
+}
+
+@media screen and (max-width:800px){
+    .displayUp{
+        display: none;
+    }
+    .navBurger{
+        display: block;
+    }
+    .bannerStitch{
+        width: 780px;
+    }
+    .logoStitch{
+        top: 350px;
+        left: 82px;
+        width: 300px ;
+    }
+    .textLogoStitch{
+        top: 588px;
+        left: 150px;
+    }
+   .vignetteSection{
+        margin-top: 25em;
+   }
+   .cadeauImg{
+        width: 49em;
+   }
+   .logoBoutique{
+        top: 428em;
+        left: 42px;
+        width: 17em;
+   }
+   .textBoutique{
+    top: 433em;
+    left: 22px ;
+   }
+   .textDecouvrir{
+    top: 435em;
+    left: 134px;
+}
+.textInscrip{
+    top: 536em;
+    left: 326px;
+}
+.buttonStitch{
+    top: 41em;
+    left: 13em;
+}
+.buttonActus{
+    position: absolute;
+    top: 541em;
+    left: 295px;
+}
+}
