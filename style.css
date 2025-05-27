@@ -17,16 +17,63 @@ a{
         background: none; /*enleve le background du bouton*/
         border: 1px solid #000000; /*bordure du bouton*/
         border-radius: 70px; /*arrondir les bords*/
-        color: #000000;
+        color: #000000; /*couleur du texte*/
         display: block;
         font-size: 15px; /*taille du texte*/
         font-weight: bold;
         margin: 3px auto; /* le auto sert a remplir automatiquement l'espace des marge, ici ca le met au milieu, le 3px etant la marge horizontale*/
         padding: 1em 2em; /*padding interieur verticale et sur le coté horizontal*/
-        width: 16em; /* la longueur fixe du bouton*/
+        width: 17em; /* la longueur fixe du bouton*/
         position: relative;
         text-transform: uppercase;
 }
+
+.buttonBlue{
+    background: none;
+    background-color: #5A6996;
+    border: 1px solid #5A6996;
+    border-radius: 70px; 
+    color: #ffffff;
+    display: block;
+    font-size: 15px; 
+    font-weight: bold;
+    margin: 3px auto; 
+    padding: 1em 2em; 
+    width: 17em; 
+    position: relative;
+    text-transform: uppercase;
+}
+
+.buttonWhite{
+    background: none;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 70px; 
+    color: #000000;
+    display: block;
+    font-size: 15px; 
+    font-weight: bold;
+    margin: 3px auto; 
+    padding: 1em 2em; 
+    position: relative;
+    text-transform: uppercase;
+}
+
+.buttonTransparent{
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 70px; 
+    color: #000000;
+    display: block;
+    font-size: 15px; 
+    font-weight: bold;
+    margin: 3px auto; 
+    padding: 1em 2em; 
+    width: 17em; 
+    position: relative;
+    text-transform: uppercase;
+}
+
 
 .displayUp{ /*header*/
     display: flex;
@@ -66,11 +113,12 @@ a{
 .buttonStitch{
     position: absolute;
         top: 34em;
-        left: 16em;
+        left: 13em;
     display: flex;
     flex-direction: column;
     align-content: space-between;
 }
+
 
 
 .vignetteSection{ /*section 2 vignette*/
@@ -252,7 +300,6 @@ a{
 .buttonActus{
     position: absolute;
     top: 294em;
-    left: 851px;
 }
 
 /* ----------------------------------------------------MENU BURGER-------------------------------------------------------*/
