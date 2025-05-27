@@ -446,10 +446,8 @@ a{
     }
     .buttonStitch{
         top: 41em;
-        left: 17em;
+        left: 10em;
         flex-direction: row;
-        width: 281px;
-        height: 36px;
     }
    .cadeauImg{
         width: 49em;
@@ -469,13 +467,12 @@ a{
     }
     .textInscrip{
         top: 274em;
-        left: 236px;
+        left: 215px;
         font-size: 27px;
     }
 
     .buttonActus{
         position: absolute;
         top: 469em;
-        left: 293px;
     }
 }
