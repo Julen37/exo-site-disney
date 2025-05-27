@@ -14,18 +14,18 @@ a{
 }
 
 .testButton{
-        background: none; /*enleve le background du bouton*/
-        border: 1px solid #000000; /*bordure du bouton*/
-        border-radius: 70px; /*arrondir les bords*/
-        color: #000000; /*couleur du texte*/
-        display: block;
-        font-size: 15px; /*taille du texte*/
-        font-weight: bold;
-        margin: 3px auto; /* le auto sert a remplir automatiquement l'espace des marge, ici ca le met au milieu, le 3px etant la marge horizontale*/
-        padding: 1em 2em; /*padding interieur verticale et sur le coté horizontal*/
-        width: 17em; /* la longueur fixe du bouton*/
-        position: relative;
-        text-transform: uppercase;
+    background: none; /*enleve le background du bouton*/
+    border: 1px solid #000000; /*bordure du bouton*/
+    border-radius: 70px; /*arrondir les bords*/
+    color: #000000; /*couleur du texte*/
+    display: block;
+    font-size: 15px; /*taille du texte*/
+    font-weight: bold;
+    margin: 3px auto; /* le auto sert a remplir automatiquement l'espace des marge, ici ca le met au milieu, le 3px etant la marge horizontale*/
+    padding: 1em 2em; /*padding interieur verticale et sur le coté horizontal*/
+    width: 17em; /* la longueur fixe du bouton*/
+    position: relative;
+    text-transform: uppercase;
 }
 
 .buttonBlue{
@@ -99,6 +99,7 @@ a{
 .bannerStitch{
     width: 1515px;
 }
+
 .logoStitch{
     width: 412px;
     position: absolute;
