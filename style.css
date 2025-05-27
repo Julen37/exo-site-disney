@@ -13,6 +13,21 @@ a{
     color: black;
 }
 
+.testButton{
+        background: none; /*enleve le background du bouton*/
+        border: 1px solid #000000; /*bordure du bouton*/
+        border-radius: 70px; /*arrondir les bords*/
+        color: #000000;
+        display: block;
+        font-size: 15px; /*taille du texte*/
+        font-weight: bold;
+        margin: 3px auto; /* le auto sert a remplir automatiquement l'espace des marge, ici ca le met au milieu, le 3px etant la marge horizontale*/
+        padding: 1em 2em; /*padding interieur verticale et sur le coté horizontal*/
+        width: 16em; /* la longueur fixe du bouton*/
+        position: relative;
+        text-transform: uppercase;
+}
+
 .displayUp{ /*header*/
     display: flex;
 }
@@ -23,9 +38,17 @@ a{
 .displayList{
     display: flex;
 }
-
+.displayList>a:hover{
+    color: #1786eb;
+}
 
  /*section 1 stitch*/
+.stitchSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf1f3;
+}
 .bannerStitch{
     width: 1515px;
 }
@@ -46,6 +69,7 @@ a{
         left: 16em;
     display: flex;
     flex-direction: column;
+    align-content: space-between;
 }
 
 
@@ -53,8 +77,6 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 .textVignette{
     display: flex;
@@ -183,8 +205,6 @@ a{
     flex-direction: column;
 }
 .cadeauImg{
-    display: flex;
-    justify-content: center;
     width: 84em;
 }
 .logoBoutique{
@@ -222,15 +242,17 @@ a{
 /*section 8 plus d'actus */
 .textInscrip{
     position: absolute;
-    top: 286em;
-    left: 843px;
-    width: 14em;
+    top: 123em;
+    left: 730px;
+    width: 12em;
     color: #ffffff;
+    font-size: 37px;
+    text-align: center;
 }
 .buttonActus{
     position: absolute;
-    top: 290em;
-    left: 841px;
+    top: 294em;
+    left: 851px;
 }
 
 /* ----------------------------------------------------MENU BURGER-------------------------------------------------------*/
@@ -360,6 +382,9 @@ a{
     .navBurger{
         display: block;
     }
+    .stitchSection{ 
+        padding-bottom: 25em;
+    }
     .bannerStitch{
         width: 780px;
     }
@@ -372,39 +397,38 @@ a{
         top: 624px;
         left: 326px;
     }
-   .vignetteSection{
-        margin-top: 25em;
-   }
-   .cadeauImg{
-        width: 49em;
-   }
-   .logoBoutique{
-        top: 428em;
-        left: 42px;
-        width: 17em;
-   }
-   .textBoutique{
-        top: 433em;
-        left: 22px ;
-   }
-   .textDecouvrir{
-        top: 435em;
-        left: 134px;
-}
-    .textInscrip{
-        top: 536em;
-        left: 289px;
-}
     .buttonStitch{
         top: 41em;
         left: 17em;
         flex-direction: row;
         width: 281px;
         height: 36px;
-}
+    }
+   .cadeauImg{
+        width: 49em;
+   }
+   .logoBoutique{
+        top: 355em;
+        left: 42px;
+        width: 17em;
+   }
+   .textBoutique{
+        top: 360em;
+        left: 22px ;
+   }
+   .textDecouvrir{
+        top: 362em;
+        left: 134px;
+    }
+    .textInscrip{
+        top: 274em;
+        left: 236px;
+        font-size: 27px;
+    }
+
     .buttonActus{
         position: absolute;
-        top: 541em;
-        left: 286px;
-}
+        top: 469em;
+        left: 293px;
+    }
 }
