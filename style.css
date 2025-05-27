@@ -98,7 +98,13 @@ a{
 }
 .bannerStitch{
     width: 1515px;
+    
 }
+.bannerStitch:hover{ /* depace de la boite quand ca zoom je comprend pas*/
+    transition: all 2s;
+        transform: scale(1.1);
+}
+
 
 .logoStitch{
     width: 412px;
