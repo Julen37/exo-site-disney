@@ -312,24 +312,27 @@ a{
     top: 294em;
 }
 
-/*footer*/
+/*section footer*/
 .foot{
     display: flex;
-    
     align-items: center;
     flex-direction: column;
+    align-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .follow{
-
+    margin-bottom: 1em;
 }
 .iconDiv{
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 1em;
 }
 .links{
     font-size: smaller;
-    display: flex;
     
+    margin-left: 1em;
 }
 .links:hover{
     color: #1786eb;
@@ -338,7 +341,10 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
+
 
 /* ----------------------------------------------------MENU BURGER-------------------------------------------------------*/
 #menuToggle
