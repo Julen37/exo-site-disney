@@ -42,6 +42,7 @@ a{
     width: 17em; 
     position: relative;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .buttonWhite{
@@ -57,6 +58,7 @@ a{
     padding: 1em 2em; 
     position: relative;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .buttonTransparent{
@@ -72,6 +74,7 @@ a{
     width: 17em; 
     position: relative;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -307,6 +310,34 @@ a{
 .buttonActus{
     position: absolute;
     top: 294em;
+}
+
+/*footer*/
+.foot{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.follow{
+
+}
+.iconDiv{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.links{
+    font-size: smaller;
+    display: flex;
+    
+}
+.links:hover{
+    color: #1786eb;
+}
+.linksDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 /* ----------------------------------------------------MENU BURGER-------------------------------------------------------*/
