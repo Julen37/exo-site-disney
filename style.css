@@ -98,17 +98,15 @@ a{
     justify-content: center;
     align-items: center;
     background-color: #ebf1f3;
+    overflow: hidden; /* pour que le surplus ne s'affiche pas*/
 }
 .bannerStitch{
     width: 1515px;
-    
 }
 .bannerStitch:hover{ /* depace de la boite quand ca zoom je comprend pas*/
-    transition: all 2s;
-        transform: scale(1.1);
+    transition: all 1.5s;
+        transform: scale(1.05);
 }
-
-
 .logoStitch{
     width: 412px;
     position: absolute;
@@ -204,6 +202,13 @@ a{
 .buttonDisney{
     display: flex;
     justify-content: center;
+}
+.zoomDisney{
+    overflow: hidden;
+}
+.bannerImg:hover{
+    transition: all 0.3s;
+        transform: scale(1.03);
 }
 
 /*section 4 parcs*/
